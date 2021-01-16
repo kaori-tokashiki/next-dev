@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function Footer() {
+const Footer = () => {
   const classes = useStyles();
 
   return (
@@ -75,3 +75,5 @@ export default function Footer() {
     </React.Fragment>
   );
 }
+
+export default Footer;
