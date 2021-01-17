@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div className={styles.container}>
+    <div /* className={styles.container} */ >
       <Head>
         <title>Next Dev</title>
         <link rel="icon" href="/favicon.ico" />
